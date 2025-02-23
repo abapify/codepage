@@ -30,4 +30,8 @@ data(lv_binary) = zcl_abap_codepage=>to( test ).
 assert( zcl_abap_codepage=>from( lv_binary ) )->eq( test ).
 ```
 
+## Test Dependencies
+- [assert](https://github.com/abapify/assert)
+- [throw](https://github.com/abapify/throw)
+
 
