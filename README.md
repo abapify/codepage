@@ -32,6 +32,6 @@ assert( zcl_abap_codepage=>from( lv_binary ) )->eq( test ).
 
 ## Test Dependencies
 - [assert](https://github.com/abapify/assert)
-- [throw](https://github.com/abapify/throw)
+- [throw](https://github.com/abapify/throw) (via assert)
 
 
