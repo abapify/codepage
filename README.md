@@ -9,7 +9,8 @@ It never happened and it happened again. Clean core requires a new class for cod
 We can [see](https://help.sap.com/docs/search?q=CL_ABAP_CODEPAGE+&locale=en-US&format=standard,html,pdf,others) that is still present in a new ABAP documentation snippets.
 ![image](https://github.com/user-attachments/assets/849cb89e-3aed-4271-a519-ece3db92bb45)
 
-However it turned out to be one more example when "Clean Core" concept simply prevented us from using this class: `The use of Class CL_ABAP_CODEPAGE is not permitted`
+However it turned out to be one more example when "Clean Core" concept simply prevented us from using this class: 
+`The use of Class CL_ABAP_CODEPAGE is not permitted`
 
 ![image](https://github.com/user-attachments/assets/11b0e390-ee8f-49c8-a4f2-36895300bc18)
 
