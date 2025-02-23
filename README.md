@@ -20,5 +20,14 @@ Introducing one class in a new environment which is not present in the old envir
 
 ## ZCL_ABAP_CODEPAGE
 
+Rountrip example from the unit test
+
+```
+data(test) = |This is a sample string|.
+" String to xstring ( to codepage )
+data(lv_binary) = zcl_abap_codepage=>to( test ).
+" Xstring to string ( from codepage )
+assert( zcl_abap_codepage=>from( lv_binary ) )->eq( test ).
+```
 
 
